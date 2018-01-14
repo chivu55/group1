@@ -15,7 +15,7 @@ public class Calculation {
 
         for (int i = 0; i < 7; i++) {
             int random = createRandom();
-            System.out.println("Counter i =  " + i + ", Random number " + random + ",  Multiply: " + (i + random));
+            System.out.println("Counter i =  " + i + ", Random number " + random + ",  Multiply: " + (i * random));
         }
 
         System.out.println("");
